@@ -1,0 +1,16 @@
+{
+  "name": "chat_service",
+  "version": "1.0.0",
+  "description": "A simiple chat service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liam Chapman",
+  "license": "ISC",
+  "private": "true",
+  "dependencies": {
+    "express": "4.x",
+    "socket.io": "4.x"
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link href="Content/default.css" rel="stylesheet" />
+    <script src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/CalculatorLibrary.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <hgroup id="headerText">
+                <h1>Contoso Ltd.</h1>
+                <h2>Your success equals our success</h2>
+            </hgroup>
+        </header>
+        <nav>
+            <a href="default.html">Home</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </nav>
+        <div role="main">
+            <div id="calculator" >
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            <input id="txtResult" type="text" readonly="readonly" /> 
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="4">
+                            <input id="txtInput" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="clear" id="btnClearEntry">CE</button>
+                        </td>
+                        <td>
+                            <button class="clear" id="btnClear">C</button>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="num" id="btnNumber7">7</button>
+                        </td>
+                        <td>
+                            <button class="num" id="btnNumber8">8</button>
+                        </td>
+                        <td> 
+                            <button class="num" id="btnNumber9">9</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="num" id="btnNumber4">4</button>
+                        </td>
+                        <td>
+                            <button class="num" id="btnNumber5">5</button>
+                        </td>
+                        <td>
+                            <button class="num" id="btnNumber6">6</button>
+                        </td>
+                        <td>
+                            <button class="func" id="btnMinus">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="num" id="btnNumber1">1</button>
+                        </td>
+                        <td>
+                            <button class="num" id="btnNumber2">2</button>
+                        </td>
+                        <td>
+                            <button class="num" id="btnNumber3">3</button>
+                        </td>
+                        <td>
+                            <button class="func" id="btnPlus">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="num" id="btnNumber0">0</button>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+        <aside>
+            <p>Advertisements</p>
+        </aside>
+        <footer>
+            <p>Copyright&copy; 2024, Contoso Ltd., All rights reserved</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        $(document.ready(function() {
+            calculatorNamespace.initialize();
+        }))
+    </script>
+</body>
+</html>

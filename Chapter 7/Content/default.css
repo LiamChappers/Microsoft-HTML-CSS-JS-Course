@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+aside, footer, header, hgroup, nav {
+    display: block;
+}
+
+body {
+    background-color: #000;
+    font-family: system-ui, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+    background-image: url(../images/ContosoLogo.jpg);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 55px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+div[role="main"] {
+    float: left;
+    width: 60%;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    min-width: 125px;
+    background: white;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 70px;
+    font-size: small;
+    background-color: white;
+}
+
+#container {
+    min-width:800px;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    min-width: 125px;
+
+    background: white;
+}
+
+#headerText {
+    position: absolute;
+    top: 11px;
+    left: 220px;
+    margin-top: 10px;
+}
+
+#calculator {
+    border: solid;
+    background-color: black;
+    width: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+td {
+    width: 25%;
+}
+
+input {
+    width: 100%;
+    height: 7%;
+    text-align: right;
+    border: inset;
+    padding: 5px 0px;
+    border-width: 0;
+    background: #242424;
+    font-size: 24pt;
+}
+
+button {
+    height: 40px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    font-size: 18pt;
+}
+
+button:hover {
+    background-color: hsl(255, 50%, 90%);
+}
+
+input, button {
+    color: white;
+    font-weight: 200;
+    font-family: system-ui, Helvetica, sans-serif;
+}
+
+#txtInput {
+    font-size: 12pt;
+}
+
+button.clear {
+    background-color: #393939;
+}
+
+button.clear:hover {
+    background-color: #505050;
+}
+
+button.clear:active {
+    background-color: #828282;
+}
+
+button.num {
+    background-color: #5A5A5A;
+}
+
+button.num:hover {
+    background-color: #717070;
+}
+
+button.num:active {
+    background-color: #8a8989;
+}
+
+button.func {
+    background-color: #F2A33C;
+}
+
+button.func:hover {
+    background-color: #f1b15c;
+}
+
+button.func:active {
+    background-color: #f4c485;
+}
+
+[readonly] {
+    background-color: #242424;
+}
+
+#ContactUs {
+    background: #FFF;
+}
+
+label {
+    clear: both;
+    display: block;
+    float: left;
+    width: 125px;
+    height: 12px;
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+form input {
+    width: 200px;
+    border: medium solid hsl(255, 100%, 100%);
+    height: 12px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+form button {
+    width: 100px;
+    border: medium solid hsl(255, 100%, 100%);
+    vertical-align: top;
+    font-size: 12px;
+    margin: 10px 50%;
+}
+
+form textarea {
+    margin: 5px;
+    width:210px;
+    border: medium solid hsl(255, 100%, 100%);
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 12px;
+}

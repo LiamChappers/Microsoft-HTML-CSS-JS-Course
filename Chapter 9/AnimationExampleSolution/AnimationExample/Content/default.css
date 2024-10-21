@@ -1,0 +1,32 @@
+#cover {
+    display: none;
+    position: absolute;
+    background: black;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#messageBox {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+}
+
+#messageContent {
+    border: 1px solid black;
+    display: none;
+    position: relative;
+    margin: 100px auto auto auto;
+    background: yellow;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+

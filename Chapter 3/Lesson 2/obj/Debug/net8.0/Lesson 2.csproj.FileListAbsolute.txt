@@ -1,0 +1,14 @@
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/bin/Debug/net8.0/Lesson 2
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/bin/Debug/net8.0/Lesson 2.deps.json
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/bin/Debug/net8.0/Lesson 2.runtimeconfig.json
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/bin/Debug/net8.0/Lesson 2.dll
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/bin/Debug/net8.0/Lesson 2.pdb
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.AssemblyInfoInputs.cache
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.AssemblyInfo.cs
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.csproj.CoreCompileInputs.cache
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.dll
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/refint/Lesson 2.dll
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.pdb
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/Lesson 2.genruntimeconfig.cache
+/Users/liamchapman/Documents/Course - Programming HTML5, CSS, JS/Chapter 2/Lesson 2/obj/Debug/net8.0/ref/Lesson 2.dll
